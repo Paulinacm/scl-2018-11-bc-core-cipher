@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: () => {
+  encode: (text,offset) => {
     /* Acá va tu código */
   },
   decode: () => {
