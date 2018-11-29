@@ -11,12 +11,11 @@ let nroOffsetDescifrado = document.getElementById("offsetDescifrado")
 
 //funcion mostrar texto cifrado
 function cifrarTexto() {
+  
   // Agrego condiciones para que se ejecute la función
   // El número offset debe tener algo escrito
   // El número offset debe ser tipo número, por lo que utilizo la negación de la expresión isNaN, al negarlo solo cuando el valor ingresado sea número devolvera true
   if ((nroOffsetCifrado.value.length > 0 && !isNaN(nroOffsetCifrado.value)) && (ingresoTexto.value.length > 0)) {
-    // Convierto texto en mayusculas
-
     let textoIngresado = ingresoTexto.value;
     //Recorro la palabra cifrando los caracteres
     for (let index = 0; index < textoIngresado.length; index++) {
@@ -27,10 +26,7 @@ function cifrarTexto() {
       // Utilizo parseInt para convertir el valor tipo string a numero entero y poder realizar la suma, de otra forma se concatena como texto
       let element = decCaracter + parseInt(nroOffsetCifrado.value);
       console.log(element); 
-      if (index === 0) { // no entiendo porque ===0
-        // Al comenzar el ciclo for reseteo la variable que guarda el texto cifrado
-        resultCifra = "";
-      }
+      
       if (decCaracter > 64 && decCaracter < 91) {
         // Parte de la función para letras mayúsculas
         // el decimal de caracter debe estar entre 65 y 90
@@ -62,7 +58,7 @@ function cifrarTexto() {
     }
     // Asigno texto cifrado como valor de elemento html
     // para desplegar texto codificado en página web
-    textoCifrado.value = resultCifra;
+    textoCifrado.value = cipher.encode(ingresoTexto.value, nroOffsetCifrado.value);
   } else {
     // Si no se cumplen las condiciones, se resetea el campo del texto cifrado 
     textoCifrado.value = "";
