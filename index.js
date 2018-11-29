@@ -26,7 +26,7 @@ function cifrarTexto() {
       // Al decimal original le sumo el offset definido por el usuario
       // Utilizo parseInt para convertir el valor tipo string a numero entero y poder realizar la suma, de otra forma se concatena como texto
       let element = decCaracter + parseInt(nroOffsetCifrado.value);
-      console.log(element); //por qué console.log?????????
+      console.log(element); 
       if (index === 0) { // no entiendo porque ===0
         // Al comenzar el ciclo for reseteo la variable que guarda el texto cifrado
         resultCifra = "";
@@ -57,7 +57,7 @@ function cifrarTexto() {
         }
       } else {
         // Si el caracter que evalúo no es una letra mayúscula o minúscula, no lo intervengo
-        resultCifra += textoIngresado.charAt(index); //no entiendo??????
+        resultCifra += textoIngresado.charAt(index); 
       }
     }
     // Asigno texto cifrado como valor de elemento html
