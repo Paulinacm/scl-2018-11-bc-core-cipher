@@ -6,7 +6,6 @@ let ingresoTexto1 = document.getElementById("textoDescifrar");
 let textoDescifrado = document.getElementById("textoDescifrado");
 let nroOffsetDescifrado = document.getElementById("offsetDescifrado")
 
-
 //funcion mostrar texto cifrado
 function cifrarTexto() {
   // Agrego condiciones para que se ejecute la función
@@ -21,11 +20,10 @@ function cifrarTexto() {
     textoCifrado.value = "";
   }
 }
-
 function descifrarTexto() {
   if ((nroOffsetDescifrado.value.length > 0 && !isNaN(nroOffsetDescifrado.value)) && (ingresoTexto1.value.length > 0)) {
     let textoIngresado1 = ingresoTexto1.value;
-    textoDescifrado.value = cipher.decode(ingresoTexto1.value, nroOffsetDescifrado.value);;
+    textoDescifrado.value = cipher.decode(ingresoTexto1.value, nroOffsetDescifrado.value);
   } else {
     textoDescifrado.value = "";
   }
