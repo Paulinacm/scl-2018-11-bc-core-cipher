@@ -9,38 +9,29 @@ window.cipher = {
       // Uso otra variable local para guardar el nuevo número decimal
       // Al decimal original le sumo el offset definido por el usuario
       // Utilizo parseInt para convertir el valor tipo string a numero entero 
-      let element = decCaracter + parseInt(offset);
-      if (decCaracter > 64 && decCaracter < 91) {
-        // función para letras mayúsculas, debe estar entre 65 y 90
-        if (element > 90) {
-          // Si el valor del nuevo decimal + offset supera 90, le resto 26, para comenzar nuevamente con la letra "A"
-          element -= 26;
-          // Convierto el decimal resultante en caracter y lo agrego a variable que guarda texto cifrado
-          resultCifra += String.fromCharCode(element);
-        } else {
-          // Convierto el decimal en caracter y lo agrego a variable que guarda texto cifrado
-          resultCifra += String.fromCharCode(element);
-        }
-      } else if (decCaracter > 96 && decCaracter < 123) {
-        // función para letras minúsculas, debe estar entre 97 y 122
-        if (element > 122) {
-          // Si el valor del nuevo decimal + offset supera 122, le resto 26, para comenzar nuevamente con la letra "a"
-          element -= 26;
-          // Convierto el decimal resultante en caracter y lo agrego a variable que guarda texto cifrado
-          resultCifra += String.fromCharCode(element);
-        } else {
-          // Convierto el decimal en caracter y lo agrego a variable que guarda texto cifrado
-          resultCifra += String.fromCharCode(element);
-        }
-      } else {
-        // Si el caracter que evalúo no es una letra mayúscula o minúscula, no lo intervengo
-        resultCifra += text.charAt(index);
+      let element = (decCaracter + parseInt(offset)) % 26;
+      if (decCaracter >= 65 && decCaracter <= 90){
+        resultCifra += String.fromCharCode(element);
+      }
+      if (decCaracter >= 97 && decCaracter <= 122) {
+        resultCifra += String.fromCharCode(element);
       }
     }
-    return resultCifra;
-  },
-  decode: (text,offset) => {
-    /* Acá va tu código */
+  }
+      return resultCifra;
+
+ 
+          // Convierto el decimal resultante en caracter y lo agrego a variable que guarda texto cifrado
+        
+      /*let element1 = (decCaracter - 97 + parseInt(offset)) % 26 + 97;
+         // función para letras minúsculas, debe estar entre 97 y 122
+          // Convierto el decimal resultante en caracter y lo agrego a variable que guarda texto cifrado
+          resultCifra += String.fromCharCode(element1);*/
+
+          
+
+  //decode: (text,offset) => {
+    /* Acá va tu código 
     for (let index = 0; index < text.length; index++) {
       let decodeCaracter = text.charCodeAt(index);
       let element = decodeCaracter - parseInt(offset);
@@ -68,4 +59,4 @@ window.cipher = {
   return resultDescifra;
   }
 };
-
+*/
