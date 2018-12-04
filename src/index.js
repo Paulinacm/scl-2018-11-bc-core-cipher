@@ -22,7 +22,6 @@ function cifrarTexto() {
 }
 function descifrarTexto() {
   if ((nroOffsetDescifrado.value.length > 0 && !isNaN(nroOffsetDescifrado.value)) && (ingresoTexto1.value.length > 0)) {
-    let textoIngresado1 = ingresoTexto1.value;
     textoDescifrado.value = cipher.decode(ingresoTexto1.value, nroOffsetDescifrado.value);
   } else {
     textoDescifrado.value = "";

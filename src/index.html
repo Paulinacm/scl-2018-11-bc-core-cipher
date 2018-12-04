@@ -10,48 +10,47 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>CifraSafe</h1>
-  <h2> Bienvenid@ a CifraSafe, la mejor aplicación para hacer tus contraseñas más seguras.</h2>
-  <br>Cifra/Descifra aquí.
-  </div>
-  <h2>Cifrar</h2>
-  <div id="un_div">
+  <h1>PasswordSafe</h1>
+  <h2> Bienvenid@ a PasswordSafe, la mejor aplicación para hacer tus contraseñas más seguras.</h2>
+<br>Ingresa el password o contraseña a Cifrar/Descifrar, 
+<br>luego ingresa un número que servirá para encripar tu clave, que debes recordar!.
+
+<div id="contenedor">
+  <h3>Cifrar</h3>
+  <div id="div1">
     <div>
-      <p>Ingresa texto para cifrar</p>
+      <p>Ingresa la contraseña para cifrar</p>
       <textarea type="text" id="textoCifrar" value="" onkeyup="cifrarTexto()"></textarea>
     </div>
     <div>
-      <p>Ingresa número de desface de letras, para el código césar</p>
+      <p>Ingresa el número para el código césar</p>
       <input type="text" id="offsetCifrado" placeholder="ingresa un número" onkeyup="cifrarTexto()">
     </div>
     <div>
-      <p>El texto codificado es:</p>
+      <p>La contraseña codificada es:</p>
       <textarea type="text" id="textoCifrado" value="" readonly></textarea>
     </div>
   </div>
-  <h2>Descifrar</h2>
-  <div id="dos_div">
+  <h3>Descifrar</h3>
+  <div id="div2">
     <div>
-      <p>Ingresa texto para descifrar</p>
+      <p>Ingresa tu contraseña para descifrar</p>
 <textarea type="text" id="textoDescifrar" value="" onkeyup="descifrarTexto()"></textarea>
     </div>
     <div>
-      <p>Ingresa número de desface de letras, para el código césar</p>
+<p>Ingresa el número para el código césar</p>
 <input type="text" id="offsetDescifrado" placeholder="ingresa un número" onkeyup="descifrarTexto()">
     </div>
     <div>
-      <p>El texto decodificado es:</p>
+      <p>La contraseña decodificada es:</p>
       <textarea type="text" id="textoDescifrado" value="" readonly></textarea>
     </div>
-    <h3>
-      <div id="reiniciar">
+    
+      <div class="button type1">
         <button onclick="reiniciar()">Reiniciar</button>
-    </h3>
   </div>
-  <h3>
-    <div id="copiar">
+    <div class="button type1">
       <button onclick="copiar()">Copiar</button>
-  </h3>
   </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
