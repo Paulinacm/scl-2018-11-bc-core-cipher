@@ -6,13 +6,14 @@ window.cipher = {
     for (let index = 0; index < text.length; index++) {
       // Uso variable local para guardar el caracter en decimal
       let decCaracter = text.charCodeAt(index);
-      let element = (decCaracter - 65 + parseInt(offset) % 26) + 65;
+      let element = ((decCaracter - 65 + parseInt(offset) % 26) + 65);
       if (decCaracter >= 65 && decCaracter <= 90) {
         resultCifra += String.fromCharCode(element);
       }
       if (decCaracter >= 97 && decCaracter <= 122) {
         resultCifra += String.fromCharCode(element);
       }
+      else resultCifra += String.fromCharCode(element);
     }
     return resultCifra;
   },
@@ -20,7 +21,7 @@ window.cipher = {
     let resultDescifra = "";
     for (let index = 0; index < text.length; index++) {
       let decodeCaracter = text.charCodeAt(index);
-      let element = (decodeCaracter - 65 - parseInt(offset) % 26) + 65;
+      let element = ((decodeCaracter - 65 - parseInt(offset) % 26) + 65);
       if (decodeCaracter >= 65 && decodeCaracter <= 90) {
           resultDescifra += String.fromCharCode(element);
         } 

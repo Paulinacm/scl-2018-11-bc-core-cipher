@@ -1,21 +1,18 @@
 /* Acá va tu código */
-
-html,
-body {
-  height: 100%;
-  background-color: white;
-  text-align: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
+#main-header {
+  background: #333;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
 }
 
 body {
   margin: 10px;
   padding: 0;
-  background-color: #ADD2EC;
+  height: 100%;
+  text-align: center;
 }
 
 #contenedor {
@@ -23,33 +20,26 @@ body {
   position: relative;
   width: 800px;
   height: 20px;
-  border: 1px solid #000000;
+  border: 1px solid white;
+  background: #50a3a2;
 }
 
 #div1 {
   width: 400px;
   height: 20px;
-  background-color: green;
   float: left;
+  padding: 4px;
 }
 
 #div2 {
   width: 400px;
   height: 20px;
-  background-color: yellow;
   float: right;
-}
-
-#textarea {
-  display: block;
-  text-align: center;
-  margin: 0px; 
-  width: 500px; 
-  height: 200px;
+  padding: 4px;
 }
 
 h1 {
-  color: #276ac0;
+  color: #fafaf9;
   text-align: center;
   font-size: 35px;
   font-family: Helvetica roman;
@@ -57,7 +47,7 @@ h1 {
 
 
 h2 {
-  color: #399cd6;
+  color: #3d4a52;
   text-align: center;
   font-size: 22px;
   font-family: helvetica roman;
