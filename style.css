@@ -1,1 +1,71 @@
 /* Acá va tu código */
+
+html,
+body {
+  height: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+  background-color: #ADD2EC;
+}
+
+#contenedor {
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  height: 20px;
+  border: 1px solid #000000;
+}
+
+#div1 {
+  width: 400px;
+  height: 20px;
+  background-color: green;
+  float: left;
+}
+
+#div2 {
+  width: 400px;
+  height: 20px;
+  background-color: yellow;
+  float: right;
+}
+
+#textarea {
+  display: block;
+  text-align: center;
+  margin: 0px; 
+  width: 500px; 
+  height: 200px;
+}
+
+h1 {
+  color: #276ac0;
+  text-align: center;
+  font-size: 35px;
+  font-family: Helvetica roman;
+}
+
+
+h2 {
+  color: #399cd6;
+  text-align: center;
+  font-size: 22px;
+  font-family: helvetica roman;
+}
+
+h3 {
+  color: #585858;
+  text-align: center;
+  font-size: 23px;
+  font-family: helvetica;
+}
