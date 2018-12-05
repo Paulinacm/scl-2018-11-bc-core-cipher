@@ -7,16 +7,17 @@ Se encuentra cifrado mediante Cipher Cesar. El cifrado césar es una de las téc
 
 #### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+A continuación presenta cómo se pensó en los usuario y el proceso para definir el producto final a nivel de experiencia y de interfaz.
 
 
 
 ## ¿A quién está dirigido?
 
+Esta aplicación esta dirigida a usuarios que 
+
 ## ¿Cuáles son los objetivos del usuario al usar SafeCode?
 
 ## ¿Cómo resuelve los problemas del usuario?
-
 
 ### ¿Cómo funciona?
 
