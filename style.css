@@ -15,26 +15,16 @@ body {
   text-align: center;
 }
 
-#contenedor {
-  margin: 0 auto;
-  position: relative;
-  width: 800px;
-  height: 20px;
-  border: 1px solid white;
-  background: #50a3a2;
-}
+.contenedor {
+     display: flex;
+     justify-content: space-evenly;
+   }
 
 #div1 {
-  width: 400px;
-  height: 20px;
-  float: left;
   padding: 4px;
 }
 
 #div2 {
-  width: 400px;
-  height: 20px;
-  float: right;
   padding: 4px;
 }
 
@@ -58,4 +48,12 @@ h3 {
   text-align: center;
   font-size: 23px;
   font-family: helvetica;
+}
+
+#main-footer{
+    color: #a3a0a0;
+    text-align: center;
+    font-size: 16px;
+    font-family: helvetica;
+    position: relative;
 }
