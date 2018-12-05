@@ -27,7 +27,7 @@
             <textarea type="text" id="textoCifrar" value="" onkeyup="cifrarTexto()" cols="30" rows="5"></textarea>
           </div>
           <div>
-            <p>Ingresa un número del código césar</p>
+            <p>Ingresa un número para codificar</p>
             <input type="text" id="offsetCifrado" placeholder="ingresa un número" onkeyup="cifrarTexto()">
           </div>
           <div>
@@ -43,21 +43,22 @@
             <textarea type="text" id="textoDescifrar" value="" onkeyup="descifrarTexto()" cols="30" rows="5"></textarea>
           </div>
           <div>
-            <p>Ingresa el número del código césar</p>
+            <p>Ingresa el número para decodificar</p>
             <input type="text" id="offsetDescifrado" placeholder="ingresa un número" onkeyup="descifrarTexto()">
           </div>
           <div>
             <p>La contraseña decodificada es:</p>
             <textarea type="text" id="textoDescifrado" value="" readonly cols="30" rows="5"></textarea>
           </div>
-          <div class="button type1">
-            <button onclick="reiniciar()">Reiniciar</button>
-          </div>
         </div>
 </div>
+        <div class="button_type1">
+          <button onclick="reiniciar()">Reiniciar</button>
+        </div>
         <div>
           <footer id="main-footer">
-            <p>&copy; 2018 Paulina CM</p>
+            <p> PasswordSafe es una aplicación para el cifrado de claves, utilice bajo su responsabilidad
+              <br>&copy; 2018 Paulina CM</p>
           </footer>
         </div>
         <script src="cipher.js"></script>
