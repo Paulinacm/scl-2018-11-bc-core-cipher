@@ -4,8 +4,6 @@
   background: #333;
   height: 80px;
   width: 100%;
-  left: 0;
-  top: 0;
   position: fixed;
 }
 
@@ -19,6 +17,7 @@ body {
 .contenedor {
      display: flex;
      justify-content: space-evenly;
+     
    }
 
 #div1 {
@@ -52,7 +51,6 @@ h3 {
 }
 
 button {
-  appearance: none;
   outline: 0;
   border-radius: 3px;
   width: 200px;
@@ -65,10 +63,11 @@ button {
   padding-left:40px;
   padding-right:40px;
   background-color:#FFD27D;
-  border-color: #d8d8d8;
+  border-color: #6b6969;
   border-width: 3px;
   border-style: solid;
   border-radius:35px;
+  margin: 10px;
   }
 
 #main-footer{
@@ -77,4 +76,5 @@ button {
     font-size: 12px;
     font-family: helvetica;
     position: relative;
+    padding: 10px;
 }
