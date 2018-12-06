@@ -8,18 +8,18 @@ window.cipher = {
       let decCaracter = text.charCodeAt(index);
       let element = decCaracter + (parseInt(offset) % 26);
       if (decCaracter >= 65 && decCaracter <= 90) {
-        if(element > 90){
+        if (element > 90) {
           element -= 26;
         }
         resultCifra += String.fromCharCode(element);
-      }else if (decCaracter >= 97 && decCaracter <= 122) {
+      } else if (decCaracter >= 97 && decCaracter <= 122) {
         if (element > 122) {
           element -= 26;
         }
         resultCifra += String.fromCharCode(element);
       } else {
-        resultCifra += String.fromCharCode(element); 
-      } 
+        resultCifra += String.fromCharCode(decCaracter);
+      }
     }
     return resultCifra;
   },
@@ -32,17 +32,16 @@ window.cipher = {
         if (element < 65) {
           element += 26;
         }
-          resultDescifra += String.fromCharCode(element);
-        } 
-        else if (decodeCaracter >= 97 && decodeCaracter <= 122) {
-          if (element < 97) {
-            element += 26;
-          }
-          resultDescifra += String.fromCharCode(element);
-      } else {
         resultDescifra += String.fromCharCode(element);
+      } else if (decodeCaracter >= 97 && decodeCaracter <= 122) {
+        if (element < 97) {
+          element += 26;
+        }
+        resultDescifra += String.fromCharCode(element);
+      } else {
+        resultDescifra += String.fromCharCode(decodeCaracter);
       }
-        } 
-        return resultDescifra;
-      }
+    }
+    return resultDescifra;
+  }
 }
