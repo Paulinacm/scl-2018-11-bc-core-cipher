@@ -248,6 +248,11 @@ mínimo del 50% de _branches_.
 
 * [ ] Permite usar un `offset` negativo.
 
+Contributing
+Pull requests and stars are always welcome. For bugs and feature requests, please create an issue. But before doing anything, please read the CONTRIBUTING.md guidelines.
+
+
+
 ## UML diagrams
 
   
