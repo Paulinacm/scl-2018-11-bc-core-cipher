@@ -1,7 +1,5 @@
-
-
 #main-header {
-  background: #333;
+  background: rgb(79, 78, 161);
   width: 100%;
 }
 
@@ -12,7 +10,7 @@ body {
 }
 
 .contenedor {
-     display: flex;
+     display: none;
      justify-content: space-evenly;
      
    }
@@ -34,21 +32,20 @@ h1 {
 
 
 h2 {
-  color: #3d4a52;
+  color: #126791f8;
   text-align: center;
-  font-size: 22px;
+  font-size: 15px;
   font-family: helvetica roman;
 }
 
 h3 {
-  color: #585858;
+  color: #49496b;
   text-align: center;
-  font-size: 23px;
+  font-size: 22px;
   font-family: helvetica;
 }
 
-button {
-  outline: 0;
+.boton1 {
   border-radius: 3px;
   width: 200px;
   cursor: pointer;
@@ -59,12 +56,13 @@ button {
   padding-bottom:15px;
   padding-left:40px;
   padding-right:40px;
-  background-color:#FFD27D;
+  background-color:rgb(90, 89, 109);
   border-color: #6b6969;
   border-width: 3px;
   border-style: solid;
   border-radius:35px;
   margin: 10px;
+  display: none;
   }
 
 #main-footer{
@@ -74,4 +72,13 @@ button {
     font-family: helvetica;
     position: relative;
     padding: 10px;
+}
+
+.instrucciones {
+  color: #bebbbb;
+  text-align: center;
+  font-size: 12px;
+  font-family: helvetica;
+  position: relative;
+  padding: 10px;
 }

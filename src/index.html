@@ -13,12 +13,16 @@
   <header id="main-header">
       <h1>PasswordSafe</h1>
       <h2> Bienvenid@ a PasswordSafe, la mejor aplicación para hacer tus contraseñas más seguras.</h2>
-      <br>PasswordSafe es muy fácil de usar:  
+  </header>
+  <div id= "instrucciones">
+    <h2>PasswordSafe es muy fácil de usar:
       <br>(1) Tienes que ingresa el password o contraseña
       <br>(2) luego ingresa un número que servirá para encripar tu clave, que debes recordar!.
-      <br>(3) listo! ya tienes tu constraseña lista para usar. 
-  </header>
-
+      <br>(3) listo! ya tienes tu constraseña lista para usar. </h2> </div>
+      <div id="categorias">
+        <button onclick="div1()" id="boton1">Cifrado</button>
+        <button onclick="div2()" id="boton2">Descifrado</button>
+      </div>
       <div class="contenedor">
         <div id="div1">
           <h3>Cifrar</h3>
@@ -52,8 +56,7 @@
           </div>
         </div>
 </div>
-        <div class="button_type1">
-          <button onclick="volver()">Volver</button>
+          <button id="volver">Volver</button>
         </div>
         <div>
           <footer id="main-footer">

@@ -1,29 +1,89 @@
 # CifraSafe
 
-Bienvenido a CifraSafe, la mejor aplicación para cifrar sus contraseñas. A continuación se expondrá el funcionamiento de la aplicación, a quién está dirigido, los objetivos del usuario en relación con el producto, y qué problemas resuelve esta aplicación.
 
-Hello, bienvenid@ a la información sobre la aplicación de CiferSafe.  
+Bienvenido a CifraSafe, la mejor aplicación para cifrar sus contraseñas. 
+
 Aqui explicaremos el funcionamiento, el público al que está dirigido, los objetivos del usuario en relación al producto, y qué problemas resuelve esta aplicación.   
 
-* Versión disponible [Inglés](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md).
+* Versión (pronto) disponible en [Inglés](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher/blob/master/README_english.md).
 
 *******
 Indice de contenidos  
- 1. [What is Markdown?](#whatismarkdown)
- 2. [Why use Markdown?](#why)
- 3. [Tools for Markdown](#tools)
- 4. [Markdown Syntax](#syntax)
+ 1. [Instalación y Uso](##Instalación )
+ 2. [¿Cuáles ?](##¿Cuáles)
+ 3. [¿Cómo ](#¿Cómo)
+ 4. [M](#syntax)
 
 *******
+## Instalación y Uso
+
+* #### Descarga
+CiferSafe lo puedes descargar desde aquí.
+
+* #### Instalación
+Para instalarlo necesitas...
+
+* #### Ejecutar la aplicación.
 
 
-### Instalación
+* #### Introducción 
+`README.md`:  introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
 
-*  `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
+#### ¿Cómo funciona?
+  
+CiferSafe es una aplicación que realiza cifrado y descifrado de texto mediante el sistema *Cipher Cesar* o Cifrado César.   El cifrado César es una técnicas para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-### Decisiones de Diseño
+Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+- La letra A se cifra como D.
+
+- La palabra CASA se cifra como FDVD.
+
+- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.
+
+- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+
+Usa el alfabeto simple (mayúsculas y minúsculas, sin ñ ni caracteres especiales):
+
+- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+- a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+
+*****
+Los pasos que deben realizar para utilizar la aplicación son:
+
+1. Ingresar a la página.
+
+2.  Seleccionar si quieren cifrar o descifrar una contraseña.
+
+3. En el area de texto escribir o pegar la contraseña a Cifrar/Descifrar.
+
+4. Indicar el número de cifrado.
+
+5. El resultado se verá inmediatamente en la sección contigua.
+
+6. Listo para usar!
+
+
+#### Decisiones de Diseño
+
+
+#### Interfaz de usuario (UI)
+
+  
+La interfaz permite al usuario:
+
+- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+
+- Insertar un mensaje (texto) que queremos cifrar.
+
+- Ver el resultado del mensaje cifrado
+
+- Insertar un mensaje (texto) a descifrar.
+
+- Ver el resultado del mensaje descifrado.
 
 
 #### Definición del producto
@@ -42,105 +102,29 @@ Tener un sistema de codificación contribuye a dar seguridad al espacio personal
   
 ## ¿Cuáles son los objetivos del usuario al usar CifraSafe?
 
-* [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+Mejorar la seguridad de las contraseñas digitales, tanto personales como institucionales, de las personas.
 
-Mejorar la seguridad de las contraseñas digitales tanto personales como institucionales de las personas.
-
-Los objetivos del usuario son en relación a la creación de contraseñas cifradas mediante el código césar. Los pasos que deben realizar para lograrlo son:
-
-1. Ingresar a la página.
-
-2.  Seleccionar si quieren cifrar o descifrar una contraseña.
-
-3. En el area de texto escribir o pegar la contraseña a Cifrar/Descifrar.
-
-4. Indicar el número de cifrado.
-
-5. El resultado se verá inmediatamente en la sección contigua.
-
-7. Listo para usar!
-
-  
-
-## ¿Cómo resuelve los problemas del usuario?
-
-  
-  
-
-#### Interfaz de usuario (UI)
-
-  
-
-La interfaz permite al usuario:
-
-- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
-
-- Insertar un mensaje (texto) que queremos cifrar.
-
-- Ver el resultado del mensaje cifrado
-
-- Insertar un mensaje (texto) a descifrar.
-
-- Ver el resultado del mensaje descifrado.
-
-### ¿Cómo funciona?
-  
-CiferSafe cifra mediante Cipher Cesar. El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
-
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-- La letra A se cifra como D.
-
-- La palabra CASA se cifra como FDVD.
-
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.
-
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-
-Usa este alfabeto simple (mayúsculas y minúsculas, sin ñ ni caracteres especiales):
-
-
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-- a b c d e f g h i j k l m n o p q r s t u v w x y z
-
+Los objetivos del usuario se encuentran en relación a la creación de contraseñas cifradas mediante el código césar.
 
 
   
+### ¿Cómo resuelve los problemas del usuario?
 
-## Recursos y temas relacionados
+  * [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
 
-  
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-  
-
-  
-
-  
+****
 ## Diseño de experiencia de usuario (User Experience Design):
 
 - Ideación.
 
 - Prototipado (sketching)
 
-Diagrama de flujo de .......:
+Diagrama de flujo:
 
-```mermaid
+![enter image description here](https://lh3.googleusercontent.com/TVEtorSVXgdh_BY1_smM_1e54i4_jqu_uf1znpuMMtW2TUSMoXyVu3VGmwPHNbivjxfEzp7I3lKf "User Flow")
 
-graph LR
+### User Testing
 
- 
-A[Página de inicio] --> B( Cifrar )
-
-A --> C(Descifrar)
-
-B --> D[Resultado <br/>Cifrado/Descifrado]
-
-C --> D
-
-```
 
 
 ## Testeo e Iteración
@@ -156,6 +140,7 @@ Desarrollo Front-end:
 * Control de flujo
 
 * Tests unitarios
+Se realizó testeo con  `npm package`
 
 Herramientas:
 
@@ -164,52 +149,4 @@ Herramientas:
 
 ## Contribuciones
 
-Pull requests and stars are always welcome. For bugs and feature requests, please create an issue. But before doing anything, please read the CONTRIBUTING.md guidelines.
-
-
-## UML diagrams
-
-
- 
-```mermaid
-
-  
-
-sequenceDiagram
-
-  
-
-Alice ->> Bob: Hello Bob, how are you?
-
-  
-
-Bob-->>John: How about you John?
-
-  
-
-Bob--x Alice: I am good thanks!
-
-  
-
-Bob-x John: I am good thanks!
-
-  
-
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-  
-
-  
-
-Bob-->Alice: Checking with John...
-
-  
-
-Alice->John: Yes... John, how are you?
-
-  
-
-```
-
-  
-
+Mejoras y otras variaciones mediante Pull-Request son bienvenidas. 
