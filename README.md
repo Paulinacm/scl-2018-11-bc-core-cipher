@@ -115,7 +115,7 @@ Encontrando las siguientes dificultades y sus planteamientos de soluciones a con
 ## Info Developers
  * Tests unitarios
 Se realizó testeo unitario con TDD (desarrollo basado en pruebas) utilizando  `npm package`
- * La web App se encuentra disponible en su totalidad en: [GitHub](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher) y GitHub Pages.
+  * La web App se encuentra disponible en su totalidad en: [GitHub](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher) y [GitHub Pages.](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher/tree/gh-pages)
 
 
 ## Contribuciones
