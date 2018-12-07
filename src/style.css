@@ -10,66 +10,43 @@ body {
 }
 
 .contenedor {
-     display: none;
      justify-content: space-evenly;
-     
    }
 
-#div1 {
+#seccionCif {
+  display: none;
   padding: 4px;
 }
 
-#div2 {
+#seccionDescif {
+  display: none;
   padding: 4px;
 }
 
 h1 {
   color: #fafaf9;
   text-align: center;
-  font-size: 35px;
-  font-family: Helvetica roman;
+  font-size: 24px;
 }
 
 
 h2 {
   color: #126791f8;
   text-align: center;
-  font-size: 15px;
-  font-family: helvetica roman;
 }
 
 h3 {
   color: #49496b;
   text-align: center;
-  font-size: 22px;
-  font-family: helvetica;
 }
 
-.boton1 {
-  border-radius: 3px;
-  width: 200px;
-  cursor: pointer;
-  transition-duration: 0.25s;
-  font-weight: 600;
-  font-size: 20px;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:40px;
-  padding-right:40px;
-  background-color:rgb(90, 89, 109);
-  border-color: #6b6969;
-  border-width: 3px;
-  border-style: solid;
-  border-radius:35px;
-  margin: 10px;
-  display: none;
-  }
+button {
+  margin: 16px;
+}
 
 #main-footer{
     color: #bebbbb;
     text-align: center;
-    font-size: 12px;
-    font-family: helvetica;
     position: relative;
     padding: 10px;
 }
@@ -77,8 +54,6 @@ h3 {
 .instrucciones {
   color: #bebbbb;
   text-align: center;
-  font-size: 12px;
-  font-family: helvetica;
   position: relative;
   padding: 10px;
 }
