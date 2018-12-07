@@ -5,8 +5,10 @@
   let ingresoTexto1 = document.getElementById("textoDescifrar");
   let textoDescifrado = document.getElementById("textoDescifrado");
   let nroOffsetDescifrado = document.getElementById("offsetDescifrado");
-  let div1 = document.getElementById("boton1");
-  let div2 = document.getElementById("boton2")
+  let botonCif = document.getElementById("btnCif");
+  let botonDescif = document.getElementById("btnDescif");
+  let areaCif = document.getElementById("seccionCif");
+  let areaDescif = document.getElementById("seccionDescif");
 
 
   let cifraTexto = function () {
@@ -31,18 +33,21 @@
   nroOffsetDescifrado.addEventListener("keyup", descifraTexto);
 
 //botones
-  function cifrar() {
-    let divUno = document.getElementById("boton1");
-    divUno.style.display = "block";
-    let divDos = document.getElementById("boton2");
-    divDos.style.display = "none";
-  }
-  div1.addEventListener("click", cifrar);
 
-   function descifrar() {
-     let divUno = document.getElementById("boton1");
-     divUno.style.display = "none";
-     let divDos = document.getElementById("boton2");
-     divDos.style.display = "block";
+
+let cifrar = function () {
+    areaCif.style.display = "block";
+    areaDescif.style.display = "none";
+  }
+botonCif.addEventListener("click", cifrar);
+
+  let descifrar = function () {
+     areaCif.style.display = "none";
+     areaDescif.style.display = "block";
    }
-  div2.addEventListener("click", descifrar);
+botonDescif.addEventListener("click", descifrar);
+
+
+document.getElementById("btnVolver").addEventListener("click", function (){
+    location.reload()
+});

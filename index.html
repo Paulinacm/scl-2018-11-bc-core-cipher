@@ -7,60 +7,69 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css" /> 
   </head>
 <body>
-  <header id="main-header">
-      <h1>PasswordSafe</h1>
-      <h2> Bienvenid@ a PasswordSafe, la mejor aplicación para hacer tus contraseñas más seguras.</h2>
-  </header>
-  <div id= "instrucciones">
-    <h2>PasswordSafe es muy fácil de usar:
-      <br>(1) Tienes que ingresa el password o contraseña
-      <br>(2) luego ingresa un número que servirá para encripar tu clave, que debes recordar!.
-      <br>(3) listo! ya tienes tu constraseña lista para usar. </h2> </div>
+      
+
+      <article class="message is-info">
+        <div class="message-header">
+          <h1>TextSafe</h1>
+        </div>
+        <div class="message-body">
+          <p> Bienvenid@ a TextSafe, la mejor aplicación para comunicarte con seguridad.</p>
+          <p>TextSafe es muy fácil de usar:</p>
+          <p>
+            <br>(1) Tienes que ingresa el password o contraseña
+            <br>(2) luego ingresa un número que servirá para encripar tu clave, que debes recordar!.
+            <br>(3) listo! ya tienes tu constraseña lista para usar. </p>
+          </div>
+        </div>
+      </article>
+      
       <div id="categorias">
-        <button onclick="div1()" id="boton1">Cifrado</button>
-        <button onclick="div2()" id="boton2">Descifrado</button>
+        <button id="btnCif" class="button is-black is-rounded">Cifrado</button>
+        <button id="btnDescif" class="button is-black is-rounded">Descifrado</button>
       </div>
       <div class="contenedor">
-        <div id="div1">
+        <div id="seccionCif">
           <h3>Cifrar</h3>
           <div>
             <p>Ingresa la contraseña para cifrar</p>
-            <textarea type="text" id="textoCifrar" value="" cols="30" rows="5"></textarea>
+            <textarea type="text" id="textoCifrar" value="" cols="30" rows="5" class="textarea"></textarea>
           </div>
           <div>
             <p>Ingresa un número para codificar</p>
-            <input type="text" id="offsetCifrado" placeholder="ingresa un número" >
+            <input type="text" id="offsetCifrado" placeholder="ingresa un número" class="input is-rounded">
           </div>
           <div>
             <p>La contraseña codificada es:</p>
-            <textarea type="text" id="textoCifrado" value="" readonly cols="30" rows="5"></textarea>
+            <textarea type="text" id="textoCifrado" value="" readonly cols="30" rows="5" class="textarea"></textarea>
           </div>
         </div>
 
-        <div id="div2">
+        <div id="seccionDescif">
           <h3>Descifrar</h3>
           <div>
             <p>Ingresa tu contraseña para descifrar</p>
-            <textarea type="text" id="textoDescifrar" value="" cols="30" rows="5"></textarea>
+            <textarea type="text" id="textoDescifrar" value="" cols="30" rows="5" class="textarea"></textarea>
           </div>
           <div>
             <p>Ingresa el número para decodificar</p>
-            <input type="text" id="offsetDescifrado" placeholder="ingresa un número">
+            <input type="text" id="offsetDescifrado" placeholder="ingresa un número" class="input is-rounded">
           </div>
           <div>
             <p>La contraseña decodificada es:</p>
-            <textarea type="text" id="textoDescifrado" value="" readonly cols="30" rows="5"></textarea>
+            <textarea type="text" id="textoDescifrado" value="" readonly cols="30" rows="5" class="textarea"></textarea>
           </div>
         </div>
 </div>
-          <button id="volver">Volver</button>
+          <button id="btnVolver" class="button is-link is-rounded">Volver</button>
         </div>
         <div>
-          <footer id="main-footer">
-            <p> PasswordSafe es una aplicación para el cifrado de claves, utilice bajo su responsabilidad
+          <footer id="main-footer" class="footer">
+            <p> TextSafe es una aplicación para el cifrado de claves, utilice bajo su responsabilidad
               <br>&copy; 2018 Paulina CM</p>
           </footer>
         </div>
