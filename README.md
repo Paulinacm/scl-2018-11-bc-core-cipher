@@ -1,5 +1,7 @@
+
 # TextSafe
 ![enter image description here](https://lh3.googleusercontent.com/Yasec1ITP1cmM_6UvMtnG4NYv1igXPOipPbZ6gQyi2dwgP__rX6ZyPlb43p1Z4N2_vhg4eyQa2pA "Pantalla Inicio")
+
 Bienvenido a CifraSafe, la mejor aplicación para enviar mensajes en redes inseguras!!
 
 * Versión (pronto) disponible en [Inglés](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher/blob/master/README_english.md).
@@ -36,6 +38,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - La letra A se cifra como D.
 
 - La palabra CASA se cifra como FDVD.
+
 
 ![enter image description here](https://lh3.googleusercontent.com/K-aZN0WE9yu5ukKalG-VO_4-KKqt8ku8HBvhgqmSK2dhwf5nvU2GZVZ4FUNE1xoPcALEV16seBJ2 "Cifrado")
 Usa el alfabeto simple (mayúsculas y minúsculas, sin ñ ni caracteres especiales):
