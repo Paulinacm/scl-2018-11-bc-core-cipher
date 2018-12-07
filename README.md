@@ -2,6 +2,7 @@
 ![enter image description here](https://lh3.googleusercontent.com/Yasec1ITP1cmM_6UvMtnG4NYv1igXPOipPbZ6gQyi2dwgP__rX6ZyPlb43p1Z4N2_vhg4eyQa2pA "Pantalla Inicio")
 
 Bienvenido a CifraSafe, la mejor aplicación para enviar mensajes en redes inseguras!!
+* Versión demo de la App disponible en [ \[GitHub Pages](https://paulinacm.github.io/scl-2018-11-bc-core-cipher/).]
 
 * Versión (pronto) disponible en [Inglés](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher/blob/master/README_english.md).
 
@@ -115,7 +116,7 @@ Encontrando las siguientes dificultades y sus planteamientos de soluciones a con
 ## Info Developers
  * Tests unitarios
 Se realizó testeo unitario con TDD (desarrollo basado en pruebas) utilizando  `npm package`
-  * La web App se encuentra disponible en su totalidad en: [GitHub](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher) y [GitHub Pages.](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher/tree/gh-pages)
+  * La web App se encuentra disponible en su totalidad en: [GitHub](https://github.com/Paulinacm/scl-2018-11-bc-core-cipher) y [ \[GitHub Pages](https://paulinacm.github.io/scl-2018-11-bc-core-cipher/).]
 
 
 ## Contribuciones
