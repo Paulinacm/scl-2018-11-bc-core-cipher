@@ -9,16 +9,16 @@ Bienvenido a CifraSafe, la mejor aplicación para enviar mensajes en redes inseg
 
 ## ¿A quién está dirigido?
 
-En un contexto donde es común la disponibilidad de conección a redes abiertas, y con alta vulnerabilidad, es que se hace cada vez más necesario tener un modo de mejorar la privacidad de los mensajes que nos enviamos.  Es por esto que nace TextSafe, la mejor alternativa para resolver la necesidad de los usuarios de enviar mensajes personales o laborales, ya sea por redes sociales o por correo, pero agregando mayor seguridad mediante la codificación de este mensaje.  
+En el contexto actual es común la disponibilidad de conección a redes tanto privadas como públicas, estas últimas con alta vulnerabilidad, por tal motivo se hace cada vez más necesario tener un modo de mejorar la privacidad de los mensajes que enviamos.  De esta situación nace TextSafe, la mejor alternativa para resolver la necesidad de los usuarios de enviar mensajes personales o laborales, agregando mayor seguridad mediante la codificación de este mensaje.  
 
-Esta aplicación esta dirigida especialmente a personas que se conecten a redes abiertas como: aeropuertos, lugares de estudio, cafés, plazas públicas y que quieran mejorar la seguridad de sus mensajes de comunicación con otra persona.
+Esta aplicación esta dirigida especialmente a personas que se conecten a redes abiertas como: aeropuertos, lugares de estudio, cafés, plazas públicas, y que quieran mejorar la seguridad de sus mensajes de comunicación.
 
 Tener un sistema de codificación contribuye a dar seguridad a los mensajes personales y de trabajo.
 
   
 ## ¿Cuáles son los objetivos del usuario al usar TextSafe?
 
-Mejorar la seguridad de los mensajes digitales, tanto personales como laborales, de personas que estén usando una red de wifi abierta y no privada.
+Mejorar la seguridad de los mensajes digitales, tanto personales como laborales, de personas que estén usando una red de wifi pública y no privada.
 
 El usuario de la App TextSafe, requiere enviar mensajes de texto (whatsapp, messenger) o emails, y que quieran dar mayor seguridad  a este mensaje.
 
@@ -26,7 +26,7 @@ El usuario de la App TextSafe, requiere enviar mensajes de texto (whatsapp, mess
   
 ### ¿Cómo resuelve los problemas del usuario?
 
- La necesidad de comunicarse es inherente al ser humano, y hoy en día la posibilidad de utilizar las redes es cada vez más amplia y disponible para todos, sin embargo muchas de esas conecciones a las redes de wifi son mediante redes abiertas y no protegidas, por lo que cualquiera podría tener acceso a la información compartida.  La App TextSafe contribuye a esos usuarios que requieren comunicarse de un modo seguro, mediante el cifrado de sus mensajes.
+ La necesidad de comunicarse es inherente al ser humano, y hoy en día la posibilidad de utilizar las redes es cada vez más amplia y accesible para la mayoría, sin embargo muchas de esas conecciones a las redes de wifi son mediante redes abiertas y no protegidas, por lo que cualquier persona podría tener acceso a la información compartida.  La App TextSafe contribuye a esos usuarios que requieren comunicarse de un modo seguro, mediante el cifrado de sus mensajes.
 
 
 #### ¿Cómo funciona?

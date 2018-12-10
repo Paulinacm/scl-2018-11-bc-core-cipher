@@ -17,6 +17,10 @@ window.cipher = {
           element -= 26;
         }
         resultCifra += String.fromCharCode(element);
+      } else if (decCaracter >= 32 && decCaracter <= 47){
+           if (element > 47) {
+             element -= 16;
+        }
       } else {
         resultCifra += String.fromCharCode(decCaracter);
       }

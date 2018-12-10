@@ -11,28 +11,42 @@
     <link rel="stylesheet" href="style.css" /> 
   </head>
 <body>
-      
-
-      <article class="message is-info">
-        <div class="message-header">
-          <h1>TextSafe</h1>
-        </div>
-        <div class="message-body">
+      <div class="message-header">
+        <h1>TextSafe <span class="icon has-text-info">
+          <i class="fas fa-info-circle"></i>
+        </span>
+        <span class="icon has-text-success">
+          <i class="fas fa-check-square"></i></h1>
+      </div>
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">TextSafe</p>
+      <div class="content">
           <p> Bienvenid@ a TextSafe, la mejor aplicación para comunicarte con seguridad.</p>
           <p>TextSafe es muy fácil de usar:</p>
           <p>
-            <br>(1) Tienes que ingresa el password o contraseña
-            <br>(2) luego ingresa un número que servirá para encripar tu clave, que debes recordar!.
-            <br>(3) listo! ya tienes tu constraseña lista para usar. </p>
+            <br>(1) Tienes que ingresa el texto que quieres enviar.
+            <br>(2) luego ingresa un número que servirá para encripar tu clave.
+            <br>(3) envía tu mensaje por la plataforma que prefieras (Whastapp, email, o cualquiera!). </p>
           </div>
+          </article>
         </div>
+</div>
+  </div>
       </article>
-      
+        </div>
+     
+      <div class="tile is-parent">
+        <div class="tile is-child box">
       <div id="categorias">
-        <button id="btnCif" class="button is-black is-rounded">Cifrado</button>
-        <button id="btnDescif" class="button is-black is-rounded">Descifrado</button>
+        <figure class="image is-128x128">
+          <img src="images/ipad-hand.png">
+        </figure>
+        <button id="btnCif" class="button is-danger is-rounded">Cifrar Mensaje</button>
+        <button id="btnDescif" class="button is-danger is-rounded">Descifrar Mensaje</button>
       </div>
-      <div class="contenedor">
+            <div class="contenedor">
         <div id="seccionCif">
           <h3>Cifrar</h3>
           <div>
@@ -48,12 +62,11 @@
             <textarea type="text" id="textoCifrado" value="" readonly cols="30" rows="5" class="textarea"></textarea>
           </div>
         </div>
-
         <div id="seccionDescif">
           <h3>Descifrar</h3>
           <div>
             <p>Ingresa tu contraseña para descifrar</p>
-            <textarea type="text" id="textoDescifrar" value="" cols="30" rows="5" class="textarea"></textarea>
+            <textarea type="text" id="textoDescifrar" value="" cols="30" rows="5" class="textarea" class="textarea is-info"></textarea>
           </div>
           <div>
             <p>Ingresa el número para decodificar</p>
@@ -65,12 +78,15 @@
           </div>
         </div>
 </div>
-          <button id="btnVolver" class="button is-link is-rounded">Volver</button>
+</div>
+</div>
+          <button id="btnVolver" class="button is-warning">Volver</button>
         </div>
         <div>
           <footer id="main-footer" class="footer">
-            <p> TextSafe es una aplicación para el cifrado de claves, utilice bajo su responsabilidad
-              <br>&copy; 2018 Paulina CM</p>
+              <div class="content has-text-centered">
+                by Paulina
+              </div>
           </footer>
         </div>
         <script src="cipher.js"></script>

@@ -1,5 +1,5 @@
 #main-header {
-  background: rgb(79, 78, 161);
+  background: #3498db;
   width: 100%;
 }
 
@@ -7,6 +7,14 @@ body {
   margin: 10px;
   padding: 0;
   text-align: center;
+   background-image: url();
+   background-position: center center;
+   background-repeat: no-repeat;
+   /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+   background-attachment: fixed;
+   /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+   background-size: cover;
+   background-color: none;
 }
 
 .contenedor {
@@ -31,12 +39,12 @@ h1 {
 
 
 h2 {
-  color: #126791f8;
+  color: white;
   text-align: center;
 }
 
 h3 {
-  color: #49496b;
+  color:white;
   text-align: center;
 }
 
@@ -48,12 +56,13 @@ button {
     color: #bebbbb;
     text-align: center;
     position: relative;
-    padding: 10px;
+    padding: 50px;
 }
 
-.instrucciones {
-  color: #bebbbb;
+.message-body {
+  color: white;
   text-align: center;
   position: relative;
   padding: 10px;
+  background: white
 }
