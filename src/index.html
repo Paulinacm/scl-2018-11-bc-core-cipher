@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
   <div id="root">
   </div>
   <html lang="en" dir="ltr">
@@ -12,17 +10,12 @@
   </head>
 <body>
       <div class="message-header">
-        <h1>TextSafe <span class="icon has-text-info">
-          <i class="fas fa-info-circle"></i>
-        </span>
-        <span class="icon has-text-success">
-          <i class="fas fa-check-square"></i></h1>
+        <h1>TextSafe</h1>
       </div>
-<div class="tile is-ancestor">
-  <div class="tile is-parent">
+    <div class="content">
+    </div>
     <article class="tile is-child box">
       <p class="title">TextSafe</p>
-      <div class="content">
           <p> Bienvenid@ a TextSafe, la mejor aplicación para comunicarte con seguridad.</p>
           <p>TextSafe es muy fácil de usar:</p>
           <p>
@@ -33,12 +26,6 @@
           </article>
         </div>
 </div>
-  </div>
-      </article>
-        </div>
-     
-      <div class="tile is-parent">
-        <div class="tile is-child box">
       <div id="categorias">
         <figure class="image is-128x128">
           <img src="images/ipad-hand.png">
@@ -46,11 +33,11 @@
         <button id="btnCif" class="button is-danger is-rounded">Cifrar Mensaje</button>
         <button id="btnDescif" class="button is-danger is-rounded">Descifrar Mensaje</button>
       </div>
-            <div class="contenedor">
+        <div class="contenedor">
         <div id="seccionCif">
           <h3>Cifrar</h3>
           <div>
-            <p>Ingresa la contraseña para cifrar</p>
+            <p>Ingresa el mensaje a codificar</p>
             <textarea type="text" id="textoCifrar" value="" cols="30" rows="5" class="textarea"></textarea>
           </div>
           <div>
@@ -58,14 +45,14 @@
             <input type="text" id="offsetCifrado" placeholder="ingresa un número" class="input is-rounded">
           </div>
           <div>
-            <p>La contraseña codificada es:</p>
+            <p>El mensaje codificado es:</p>
             <textarea type="text" id="textoCifrado" value="" readonly cols="30" rows="5" class="textarea"></textarea>
           </div>
         </div>
         <div id="seccionDescif">
           <h3>Descifrar</h3>
           <div>
-            <p>Ingresa tu contraseña para descifrar</p>
+            <p>Ingresa el mensaje a decodificar</p>
             <textarea type="text" id="textoDescifrar" value="" cols="30" rows="5" class="textarea" class="textarea is-info"></textarea>
           </div>
           <div>
@@ -73,13 +60,12 @@
             <input type="text" id="offsetDescifrado" placeholder="ingresa un número" class="input is-rounded">
           </div>
           <div>
-            <p>La contraseña decodificada es:</p>
+            <p>El mensaje decodificado es:</p>
             <textarea type="text" id="textoDescifrado" value="" readonly cols="30" rows="5" class="textarea"></textarea>
           </div>
         </div>
 </div>
-</div>
-</div>
+        <div>
           <button id="btnVolver" class="button is-warning">Volver</button>
         </div>
         <div>
